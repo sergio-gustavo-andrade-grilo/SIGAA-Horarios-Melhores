@@ -111,7 +111,9 @@ function converterHorarioCompleto(horarioCompleto) {
 
 function converterHorarios() {
     function traverseAndReplace(elemento) {
-        elemento.nodeValue = converterHorarioCompleto(elemento.nodeValue);
+        if (elemento.nodeType === Node.TEXT_NODE) {
+            elemento.nodeValue = converterHorarioCompleto(elemento.nodeValue);
+        }
 
         for (let child of elemento.childNodes) {
             traverseAndReplace(child);
