@@ -22,3 +22,6 @@ Para instalar a extensão, repita os seguintes passos:
 2. Acesse a página de extensões do seu navegador e ative a opção `Modo de Desenvolvedor`. Dessa forma, é possível carregar a extensão.
 3. Clique em `Carregar sem Compactação` e selecione o diretório raiz do repositório. Agora, a extensão será carregada e será possível utilizá-la.
 
+## Compartilhamento
+
+Por favor, ao compartilhar essa extensão, não envie o repositório de forma compactada (`.zip`, `.7z`, `.tar.gz`, etc.). Em vez disso, copie o [link](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-Horarios-Melhores.git) do repositório.
