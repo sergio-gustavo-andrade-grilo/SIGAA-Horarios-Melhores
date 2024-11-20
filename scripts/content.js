@@ -102,7 +102,7 @@ function converterHorarioParcial(horario) {
     diasString(horarioSplit[0]) +
     ": " +
     horarioInicio(turno, inicio) +
-    "–" +
+    "-" +
     horarioFim(turno, fim);
 
   return out.trim();
@@ -119,7 +119,7 @@ function converterHorarioCompleto(horario) {
     }
   }
 
-  return out;
+  return out.trim();
 }
 
 function converterHorarios() {
