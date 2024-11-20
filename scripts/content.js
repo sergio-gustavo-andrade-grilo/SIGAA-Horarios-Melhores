@@ -5,21 +5,21 @@
 const expr = /^[1-7][MTN][1-5][1-5]$/g;
 
 const diasDaSemana = {
-    1: "dom - ",
-    2: "seg - ",
-    3: "ter - ",
-    4: "qua - ",
-    5: "qui - ",
-    6: "sex - ",
-    7: "sab - "
+    1: "dom",
+    2: "seg",
+    3: "ter",
+    4: "qua",
+    5: "qui",
+    6: "sex",
+    7: "sab"
 };
 
 const horariosInicioManha = {
-    1: "07:00-",
-    2: "08:00-",
-    3: "09:00-",
-    4: "10:10-",
-    5: "11:10-"
+    1: "07:00",
+    2: "08:00",
+    3: "09:00",
+    4: "10:10",
+    5: "11:10"
 };
 
 const horariosFimManha = {
@@ -31,11 +31,11 @@ const horariosFimManha = {
 };
 
 const horariosInicioTarde = {
-    1: "13:00-",
-    2: "14:00-",
-    3: "15:00-",
-    4: "16:10-",
-    5: "17:10-"
+    1: "13:00",
+    2: "14:00",
+    3: "15:00",
+    4: "16:10",
+    5: "17:10"
 };
 
 const horariosFimTarde = {
@@ -47,10 +47,10 @@ const horariosFimTarde = {
 };
 
 const horariosInicioNoite = {
-    1: "18:30-",
-    2: "19:20-",
-    3: "20:10-",
-    4: "22:10-",
+    1: "18:30",
+    2: "19:20",
+    3: "20:10",
+    4: "22:10",
 };
 
 const horariosFimNoite = {
@@ -88,8 +88,8 @@ function converterHorarioParcial(horarioParcial) {
 
     let out = "";
 
-    out += diasDaSemana[dia];
-    out += horarioInicio(turno, inicio) + horarioFim(turno, fim);
+    out += diasDaSemana[dia] + ": ";
+    out += horarioInicio(turno, inicio) + "–" + horarioFim(turno, fim);
 
     return out;
 };
@@ -111,9 +111,7 @@ function converterHorarioCompleto(horarioCompleto) {
 
 function converterHorarios() {
     function traverseAndReplace(elemento) {
-        if (elemento.nodeType == 3) {
-            elemento.nodeValue = converterHorarioCompleto(elemento.nodeValue);
-        }
+        elemento.nodeValue = converterHorarioCompleto(elemento.nodeValue);
 
         for (let child of elemento.childNodes) {
             traverseAndReplace(child);
