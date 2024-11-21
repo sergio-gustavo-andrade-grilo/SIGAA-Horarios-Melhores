@@ -1,0 +1,6 @@
+body {
+    min-width: 600px;
+    max-width: 100%;
+    position: relative;
+    vertical-align: middle;
+}
