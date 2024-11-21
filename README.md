@@ -1,6 +1,6 @@
-# SIGAA: Horários Melhores
+# SIGAA UFCG: Horários Melhores
 
-Normalmente, os horários do SIGAA seguem esse padrão:
+Normalmente, os horários do SIGAA da UFCG seguem esse padrão:
 
 - Um núemro que indica o dia da semana da aula;
 - Uma letra que indica o turno da aula (manhã, tarde ou noite);
@@ -24,4 +24,4 @@ Para instalar a extensão, repita os seguintes passos:
 
 ## Compartilhamento
 
-Por favor, ao compartilhar essa extensão, não envie o repositório de forma compactada (`.zip`, `.7z`, `.tar.gz`, etc.). Em vez disso, copie o [link](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-Horarios-Melhores.git) do repositório.
+Por favor, ao compartilhar essa extensão, não envie o repositório de forma compactada (`.zip`, `.7z`, `.tar.gz`, etc.). Em vez disso, copie o [link](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-UFCG-Horarios-Melhores.git) do repositório.
