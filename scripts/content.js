@@ -1,8 +1,6 @@
 "use strict";
-// TODO adicionar horários para CFP e CCJS
 
 const exprHorarioOriginal = /^[1-7]+[MTN][1-5]+$/g;
-let coordenacao = "PADRAO";
 
 const diasDaSemana = {
   1: "dom",
@@ -58,34 +56,6 @@ const horariosFimNoite = {
   2: "20:10",
   3: "21:10",
   4: "22:00",
-};
-
-const horariosInicioNoiteCFP = {
-  1: "18:50",
-  2: "19:40",
-  3: "20:40",
-  4: "21:30",
-};
-
-const horariosFimNoiteCFP = {
-  1: "19:40",
-  2: "20:30",
-  3: "21:30",
-  4: "22:20",
-};
-
-const horariosInicioNoiteCCJS = {
-  1: "19:00",
-  2: "19:50",
-  3: "20:50",
-  4: "21:40",
-};
-
-const horariosFimNoiteCCJS = {
-  1: "19:50",
-  2: "20:40",
-  3: "21:40",
-  4: "22:30",
 };
 
 function horarioInicio(turno, num) {
