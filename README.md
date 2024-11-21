@@ -18,10 +18,14 @@ Dessa forma, espera-se que seja mais intuitiva a leitura dos horários modificad
 
 Para instalar a extensão, repita os seguintes passos:
 
-1. Faça o download do repositório. É possível cloná-lo com HTTPS ou SSH, ou então baixá-lo como ZIP. Basta clicar no botão `<> Code` na página inicial do repositório para observar as opções possíveis.
-2. Acesse a página de extensões do seu navegador e ative a opção `Modo de Desenvolvedor`. Dessa forma, é possível carregar a extensão.
-3. Clique em `Carregar sem Compactação` e selecione o diretório raiz do repositório. Agora, a extensão será carregada e será possível utilizá-la.
+1. Certifique-se de que está na _branch_ correta. Apenas aqueles cujos cursos são do CCJS ou CFP devem seguir esse passo. Isso se deve ao fato de que os horários são diferentes para estes. Acesse [aqui](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-UFCG-Horarios-Melhores/tree/CCJS) a _branch_ do CCJS e [aqui](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-UFCG-Horarios-Melhores/tree/CFP) a do CFP.
+2. Faça o _download_ do repositório. Para isso, clique no botão verde `code` na _homepage_ do repositório e clique na opção `Download ZIP`.
+3. Extraia os arquivos baixados para uma pasta qualquer.
+4. Acesse a página de extensões do seu navegador. Por exemplo, para o Chrome, a página é [esta](chrome://extensions).
+5. Após acessar a página de extensões, ative a opção `Modo de Desenvolvedor`.
+6. Clique em `Carregar sem Compactação` e selecione a pasta em que você extraiu o arquivo `.zip`.
+7. Se necessário, recarregue a página do SIGAA para que a extensão tenha efeito.
 
 ## Compartilhamento
 
-Por favor, ao compartilhar essa extensão, não envie o repositório de forma compactada (`.zip`, `.7z`, `.tar.gz`, etc.). Em vez disso, copie o [link](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-UFCG-Horarios-Melhores.git) do repositório.
+Ao compartilhar essa extensão, por favor envie o [link](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-UFCG-Horarios-Melhores.git) do repositório.
