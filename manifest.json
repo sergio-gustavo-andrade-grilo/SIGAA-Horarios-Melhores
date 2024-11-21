@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SIGAA UFCG: Horários Melhores",
-  "description": "Converte os horários do SIGAA da UFCG para um formato mais compreensível. No momento, não é válido para os horários do CFP e CCJS",
+  "description": "Converte os horários do SIGAA da UFCG para um formato mais compreensível.",
   "version": "1.0",
   "icons": {
     "16": "images/icon-16.png",
