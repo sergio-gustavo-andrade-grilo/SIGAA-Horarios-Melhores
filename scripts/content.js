@@ -45,17 +45,17 @@ const horariosFimTarde = {
 };
 
 const horariosInicioNoite = {
-  1: "18:30",
-  2: "19:20",
-  3: "20:10",
-  4: "21:10",
+  1: "19:00",
+  2: "19:50",
+  3: "20:50",
+  4: "21:40",
 };
 
 const horariosFimNoite = {
-  1: "19:20",
-  2: "20:10",
-  3: "21:10",
-  4: "22:00",
+  1: "19:50",
+  2: "20:40",
+  3: "21:40",
+  4: "22:30",
 };
 
 function horarioInicio(turno, num) {
