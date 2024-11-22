@@ -21,7 +21,7 @@ Para instalar a extensão, repita os seguintes passos:
 1. Certifique-se de que está na _branch_ correta. Apenas aqueles cujos cursos são do CCJS ou CFP devem seguir esse passo. Isso se deve ao fato de que os horários são diferentes para estes. Acesse [aqui](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-UFCG-Horarios-Melhores/tree/CCJS) a _branch_ do CCJS e [aqui](https://github.com/sergio-gustavo-andrade-grilo/SIGAA-UFCG-Horarios-Melhores/tree/CFP) a do CFP.
 2. Faça o _download_ do repositório. Para isso, clique no botão verde `code` na _homepage_ do repositório e clique na opção `Download ZIP`.
 3. Extraia os arquivos baixados para uma pasta qualquer.
-4. Acesse a página de extensões do seu navegador. Por exemplo, para o Chrome, a página é [esta](chrome://extensions).
+4. Acesse a página de configurações de extensões do seu navegador.
 5. Após acessar a página de extensões, ative a opção `Modo de Desenvolvedor`.
 6. Clique em `Carregar sem Compactação` e selecione a pasta em que você extraiu o arquivo `.zip`.
 7. Se necessário, recarregue a página do SIGAA para que a extensão tenha efeito.
